@@ -34,10 +34,10 @@ public class GKGtoFreebase {
 		InputStreamReader reader = new InputStreamReader(stream);
 		BufferedReader in = new BufferedReader(reader);
 
-		String readed;
+		String read;
 		String out = "";
-		while ((readed = in.readLine()) != null) {
-		    out += readed;
+		while ((read = in.readLine()) != null) {
+		    out += read;
 		}
 		String id = out.split("\"")[1].trim().split("\\*")[0];
 		System.out.println("http://freebase.com" + id);
