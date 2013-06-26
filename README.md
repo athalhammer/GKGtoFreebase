@@ -1,11 +1,15 @@
 GKGtoFreebase
 =============
-These few lines of code are a reference implementation of the 
+This code serves as a reference implementation of the 
 "Google Knowledge Graph to Freebase" link.
 
 More information can be found at:
 http://lists.w3.org/Archives/Public/semantic-web/2012Jun/0028.html
 
+* Author: Andreas Thalhammer, University of Innsbruck
+
+
+* Licensing:
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
