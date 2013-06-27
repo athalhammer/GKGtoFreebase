@@ -39,7 +39,9 @@ public class GKGtoFreebase {
 		while ((read = in.readLine()) != null) {
 		    out += read;
 		}
-		String id = out.split("\"")[1].trim().split("\\*")[0];
+		String part = "" + ((char) -3);
+		String split = "(\\*|" + part + ")";
+		String id = out.split("\"")[1].trim().split(split)[0];
 		System.out.println("http://freebase.com" + id);
 	}
 }

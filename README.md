@@ -3,7 +3,12 @@ GKGtoFreebase
 This code serves as a reference implementation of the 
 "Google Knowledge Graph to Freebase" link.
 
-More information can be found at:
+The Apache Commons Codec (TM) library is required. You can download the 
+commons-codec-1.8.jar from
+from 
+* http://commons.apache.org/proper/commons-codec/
+
+More information on this software can be found at:
 http://lists.w3.org/Archives/Public/semantic-web/2012Jun/0028.html
 
 * Author: Andreas Thalhammer
