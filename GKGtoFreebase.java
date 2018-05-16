@@ -39,9 +39,13 @@ public class GKGtoFreebase {
 		while ((read = in.readLine()) != null) {
 		    out += read;
 		}
+		System.out.println("Raw output:");
+		System.out.println(out);
+		System.out.println();	
 		String part = "" + ((char) -3);
 		String split = "(\\*|" + part + ")";
 		String id = out.split("\"")[1].trim().split(split)[0];
-		System.out.println("http://freebase.com" + id);
+		System.out.println("Target entity:");
+		System.out.println("http://g.co/kg" + id);
 	}
 }
