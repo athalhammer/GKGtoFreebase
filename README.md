@@ -5,7 +5,7 @@ This code serves as a reference implementation of the
 
 The Apache Commons Codec (TM) library is required. You can download the 
 commons-codec-1.11.jar from
-from 
+
 * http://commons.apache.org/proper/commons-codec/
 
 Here are some simple commands (compile and run):
