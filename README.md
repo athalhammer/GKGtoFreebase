@@ -4,14 +4,14 @@ This code serves as a reference implementation of the
 "Google Knowledge Graph to Freebase" link.
 
 The Apache Commons Codec (TM) library is required. You can download the 
-commons-codec-1.8.jar from
+commons-codec-1.11.jar from
 from 
 * http://commons.apache.org/proper/commons-codec/
 
 Here are some simple commands (compile and run):
 ```
-$ javac -cp commons-codec-1.8.jar GKGtoFreebase.java
-$ java -cp .:commons-codec-1.8.jar GKGtoFreebase H4sIAAAAAAAAAOPgE-LUz9U3SDcvssxS4gAxzc2yDbRkMsqt9JPzc3JSk0sy8_P0C1LzC3JSrdIyU3NSigFY1zJsNQAAAA
+$ javac -cp commons-codec-1.11.jar GKGtoFreebase.java
+$ java -cp .:commons-codec-1.11.jar GKGtoFreebase H4sIAAAAAAAAAOPgE-LUz9U3SDcvssxS4gAxzc2yDbRkMsqt9JPzc3JSk0sy8_P0C1LzC3JSrdIyU3NSigFY1zJsNQAAAA
 ```
 More information on this software can be found at:
 http://lists.w3.org/Archives/Public/semantic-web/2012Jun/0028.html
