@@ -11,7 +11,7 @@ from
 Here are some simple commands (compile and run):
 ```
 $javac -cp commons-codec-1.8.jar GKGtoFreebase.java
-$java -classpath .:commons-codec-1.8.jar GKGtoFreebase H4sIAAAAAAAAAOPgE-LUz9U3SC4ssTRQAjNNMtLyyrQkspOt9AtS8wtyUoFUUXF-nlVxQX5pcSoA_BRO3DIAAAA
+$java -classpath .:commons-codec-1.8.jar GKGtoFreebase H4sIAAAAAAAAAOPgE-LUz9U3SDcvssxS4gAxzc2yDbRkMsqt9JPzc3JSk0sy8_P0C1LzC3JSrdIyU3NSigFY1zJsNQAAAA
 ```
 More information on this software can be found at:
 http://lists.w3.org/Archives/Public/semantic-web/2012Jun/0028.html
